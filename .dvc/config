@@ -2,3 +2,4 @@
     remote = origin
 ['remote "origin"']
     url = gdrive://1yvftstHpcz7S-8XFlLkpswRUNZ5Fl2Dr
+    gdrive_use_service_account = true

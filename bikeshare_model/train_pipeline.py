@@ -1,3 +1,4 @@
+import mlflow
 import sys
 from pathlib import Path
 file = Path(__file__).resolve()
@@ -31,6 +32,7 @@ def run_training()-> None:
     print(f"R2 Score: {r2_score(y_test,y_pred)}")
     
     save_pipeline(pipeline_to_persist = bikeshare_pipe)
+    
     
 if __name__ == "__main__":
     run_training()
